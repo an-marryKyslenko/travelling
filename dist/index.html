@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240111152624">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="100" data-scroll-show class="header">
+			<div class="header__container ">
+				<a href="#" class="header__logo">
+					<picture><source srcset="img/Logo.webp" type="image/webp"><img src="img/Logo.png" alt="logo"></picture>
+				</a>
+				<div class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li><a href="" class="menu__link">Home</a></li>
+							<li><a href="" class="menu__link">Explore</a></li>
+							<li><a href="" class="menu__link">Travel</a></li>
+							<li><a href="" class="menu__link">Blog</a></li>
+							<li><a href="" class="menu__link">Pricing</a></li>
+
+						</ul>
+					</div>
+					<div class="menu__menu-enter">
+						<ul class="menu__enter">
+							<li><a href="" class="menu__link">Login</a></li>
+							<li><a href="" class="menu__link btn">Sign up</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+		</header>
+		<main class="page">
+			<section class="fullscreen">
+				<div class="fullscreen__swiper">
+					<div class="swiper-wrapper">
+						<div class="fullscreen__image swiper-slide ">
+							<picture><source srcset="img/fullscreen.webp" type="image/webp"><img src="img/fullscreen.png" alt=""></picture>
+						</div>
+						<div class="fullscreen__image swiper-slide">
+							<picture><source srcset="img/ofer-3.webp" type="image/webp"><img src="img/ofer-3.png" alt=""></picture>
+						</div>
+						<div class="fullscreen__image swiper-slide ">
+							<picture><source srcset="img/gallery-2.webp" type="image/webp"><img src="img/gallery-2.png" alt=""></picture>
+						</div>
+						<div class="fullscreen__image swiper-slide">
+							<picture><source srcset="img/fullscreen.webp" type="image/webp"><img src="img/fullscreen.png" alt=""></picture>
+						</div>
+						<div class="fullscreen__image swiper-slide">
+							<picture><source srcset="img/popular-2.webp" type="image/webp"><img src="img/popular-2.png" alt=""></picture>
+						</div>
+					</div>
+					<div class="fullscreen__navigation">
+						<div class="fullscreen__pagination"></div>
+						<div class="fullscreen__navig navig">
+							<div class="navig__button-prev icon-chevron"></div>
+							<div class="navig__button-next icon-chevron"></div>
+						</div>
+					</div>
+				</div>
+				<div class="fullscreen__container">
+					<div class="fullscreen__content body-content">
+						<div class="body-content__text">
+							<h1 class="body-content__title">Start your unforgettable <br>
+								journey with us.</h1>
+							<p>The best travel for your jouney begins now</p>
+						</div>
+						<form class="body-content__form">
+							<div class="body-content__inputs inputs">
+								<div class="body-content__column">
+									<label for="" class="inputs__input">
+										<span class="inputs__label">Destination</span>
+										<input autocomplete="off" type="text" data-error="Помилка" placeholder="" value="Dubai">
+									</label>
+									<label for="#person" class="inputs__input">
+										<span class="inputs__label">Person</span>
+										<select id="person">
+											<option value="1" selected>1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+										</select>
+									</label>
+								</div>
+								<div class="body-content__column">
+									<div class="inputs__input">
+										<span class="inputs__label">check in</span>
+										<input data-datepicker class="inputs__date-one" id="date" type="text">
+									</div>
+									<div class="inputs__input">
+										<span class="inputs__label">check out</span>
+										<input data-datepicker class="inputs__date-two icon-chevron" id="date" type="text">
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="body-content__button">Book Now <span class="arrow"></span></button>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="popular">
+				<div class="popular__container">
+					<div class="popular__top top-pop">
+						<div data-watch data-watch-threshold="1" class="top-pop__text text-pop">
+							<h2 class="text-pop__title">Popular Destinations</h2>
+							<p class="text-pop__paragraph">Most popular destinations around the world, from historical places to natural wonders.</p>
+						</div>
+						<div data-da=".popular__container, 768" class="top-pop__navig navig">
+							<span class="navig__prev pop-prev icon-chevron"></span>
+							<span class="navig__next pop-next icon-chevron "></span>
+						</div>
+					</div>
+					<div class="popular__swiper">
+						<div class="swiper-wrapper popular__items">
+							<div class="swiper-slide pop-item">
+								<div class="pop-item__image">
+									<picture><source srcset="img/popular-1.webp" type="image/webp"><img src="img/popular-1.png" alt=""></picture>
+								</div>
+								<div class="pop-item__location">Millennium Bridge</div>
+								<div class="pop-item__map icon-map"> London, United Kingdom</div>
+							</div>
+							<div class="swiper-slide pop-item">
+								<div class="pop-item__image">
+									<picture><source srcset="img/popular-2.webp" type="image/webp"><img src="img/popular-2.png" alt=""></picture>
+								</div>
+								<div class="pop-item__location">Rialto Bridge</div>
+								<div class="pop-item__map icon-map"> Venice, Italy</div>
+							</div>
+							<div class="swiper-slide pop-item">
+								<div class="pop-item__image">
+									<picture><source srcset="img/popular-3.webp" type="image/webp"><img src="img/popular-3.png" alt=""></picture>
+								</div>
+								<div class="pop-item__location">Sea of Orange Tiles</div>
+								<div class="pop-item__map icon-map"> Lisbon, Portugal</div>
+							</div>
+							<div class="swiper-slide pop-item">
+								<div class="pop-item__image">
+									<picture><source srcset="img/popular-4.webp" type="image/webp"><img src="img/popular-4.png" alt=""></picture>
+								</div>
+								<div class="pop-item__location">Monument of Berlin</div>
+								<div class="pop-item__map icon-map"> Berlin, Germany</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="offer">
+				<div class="offer__container">
+					<div class="offer__top top-pop offer-top">
+						<div data-watch data-watch-threshold="1" class="top-pop__text text-pop offer-top__rvs">
+							<h2 class="text-pop__title">Special Offer</h2>
+							<p class="text-pop__paragraph">Check out our special offer and discounts</p>
+						</div>
+						<div data-da=".offer__container, 768" class="top-pop__navig navig">
+							<span class="navig__prev offer-prev icon-chevron"></span>
+							<span class="navig__next offer-next icon-chevron "></span>
+						</div>
+					</div>
+					<div class="offer__swiper">
+						<div class="swiper-wrapper offer__items">
+							<div class="swiper-slide offer-item">
+								<div class="offer-item__image">
+									<picture><source srcset="img/ofer-1.webp" type="image/webp"><img src="img/ofer-1.png" alt=""></picture>
+								</div>
+								<div class="offer-item__content content">
+									<div class="content__city">Lisbon, Portugal</div>
+									<div class="content__stars">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+									</div>
+									<div class="content__text">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</div>
+									<div class="content__price price">
+										<div class="price__from">From
+											<span>€500</span>
+										</div>
+										<a href="" class="price__details">Details</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide offer-item">
+								<div class="offer-item__image">
+									<picture><source srcset="img/ofer-2.webp" type="image/webp"><img src="img/ofer-2.png" alt=""></picture>
+								</div>
+								<div class="offer-item__content content">
+									<div class="content__city">Athens, Greece</div>
+									<div class="content__stars">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+									</div>
+									<div class="content__text">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</div>
+									<div class="content__price price">
+										<div class="price__from">From
+											<span>€800</span>
+										</div>
+										<a href="" class="price__details">Details</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide offer-item">
+								<div class="offer-item__image">
+									<picture><source srcset="img/ofer-3.webp" type="image/webp"><img src="img/ofer-3.png" alt=""></picture>
+								</div>
+								<div class="offer-item__content content">
+									<div class="content__city">Rome, Italy</div>
+									<div class="content__stars">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+									</div>
+									<div class="content__text">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</div>
+									<div class="content__price price">
+										<div class="price__from">From
+											<span>€750</span>
+										</div>
+										<a href="" class="price__details">Details</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide offer-item">
+								<div class="offer-item__image">
+									<picture><source srcset="img/ofer-2.webp" type="image/webp"><img src="img/ofer-2.png" alt=""></picture>
+								</div>
+								<div class="offer-item__content content">
+									<div class="content__city">Athens, Greece</div>
+									<div class="content__stars">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+									</div>
+									<div class="content__text">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</div>
+									<div class="content__price price">
+										<div class="price__from">From
+											<span>€800</span>
+										</div>
+										<a href="" class="price__details">Details</a>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide offer-item">
+								<div class="offer-item__image">
+									<picture><source srcset="img/ofer-3.webp" type="image/webp"><img src="img/ofer-3.png" alt=""></picture>
+								</div>
+								<div class="offer-item__content content">
+									<div class="content__city">Rome, Italy</div>
+									<div class="content__stars">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+										<img src="img/star.svg" alt="">
+									</div>
+									<div class="content__text">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</div>
+									<div class="content__price price">
+										<div class="price__from">From
+											<span>€750</span>
+										</div>
+										<a href="" class="price__details">Details</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="blog">
+				<div class="blog__container">
+					<div data-watch data-watch-threshold="1" class="blog__top text-pop">
+						<h2 class="text-pop__title">Our Blog</h2>
+						<p class="text-pop__paragraph">An insight the incredible experience in the world</p>
+					</div>
+					<div class="blog__content content-blog">
+						<div class="content-blog__image">
+							<picture><source srcset="img/blog.webp" type="image/webp"><img src="img/blog.png" alt=""></picture>
+						</div>
+						<div class="content-blog__text text">
+							<div class="text__title">Beautiful Italy <br>
+								Let’s travel</div>
+							<div class="text__text">
+								But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness. No one rejects, dislike, or avoids plasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremly painful. Nor again is there anyone who loves or pursues.
+							</div>
+							<a href="" class="text__link">Read More <span class="icon-arrow"></span></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="trip">
+				<div class="trip__container container-trip">
+					<div class="container-trip__contain">
+						<div data-watch data-watch-threshold="1" class="container-trip__content text-pop">
+							<h2 class="text-pop__title">Trip Planners</h2>
+							<p class="text-pop__paragraph">20 years from now you will be more disappointed by the things that you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.</p>
+							<a href="" class="text-pop__link"><span></span>
+								<p class="link-text">View all trip plan</p> <span></span>
+							</a>
+						</div>
+					</div>
+					<div class="container-trip__swiper swiper-trip">
+						<div class="swiper-wrapper swiper-trip__items">
+							<div class="swiper-slide item-trip">
+								<div href="#" class="item-trip__image">
+									<picture><source srcset="img/trip-1.webp" type="image/webp"><img src="img/trip-1.png" alt=""></picture>
+								</div>
+								<div class="item-trip__hidden hidden-block">
+									<div class="hidden-block__top">
+										<p>Rome Tour</p>
+										<p>€95/Day</p>
+									</div>
+									<p class="hidden-block__title">Rome City Tour</p>
+									<div class="hidden-block__footer footer-block">
+										<div class="footer-block__stars">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+										</div>
+										<p class="footer-block__days">7 Days tour</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide item-trip">
+								<div href="#" class="item-trip__image">
+									<picture><source srcset="img/trip-2.webp" type="image/webp"><img src="img/trip-2.png" alt=""></picture>
+								</div>
+								<div class="item-trip__hidden hidden-block">
+									<div class="hidden-block__top">
+										<p>Guided Tour</p>
+										<p>€99/Day</p>
+									</div>
+									<p class="hidden-block__title">Paris City Tour</p>
+									<div class="hidden-block__footer footer-block">
+										<div class="footer-block__stars">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+										</div>
+										<p class="footer-block__days">7 Days tour</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide item-trip">
+								<div href="#" class="item-trip__image">
+									<picture><source srcset="img/trip-3.webp" type="image/webp"><img src="img/trip-3.png" alt=""></picture>
+								</div>
+								<div class="item-trip__hidden hidden-block">
+									<div class="hidden-block__top">
+										<p>Guided Tour</p>
+										<p>€89/Day</p>
+									</div>
+									<p class="hidden-block__title">Barcelona City Tour</p>
+									<div class="hidden-block__footer footer-block">
+										<div class="footer-block__stars">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+										</div>
+										<p class="footer-block__days">7 Days tour</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide item-trip">
+								<div href="#" class="item-trip__image">
+									<picture><source srcset="img/trip-4.webp" type="image/webp"><img src="img/trip-4.png" alt=""></picture>
+								</div>
+								<div class="item-trip__hidden hidden-block">
+									<div class="hidden-block__top">
+										<p>Guided Tour</p>
+										<p>€109/Day</p>
+									</div>
+									<p class="hidden-block__title">Budapest City Tour</p>
+									<div class="hidden-block__footer footer-block">
+										<div class="footer-block__stars">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+											<img src="img/star.svg" alt="">
+										</div>
+										<p class="footer-block__days">7 Days tour</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="gallery">
+				<div class="gallery__container">
+					<div class="gallery__top gallery-top">
+						<div data-watch data-watch-threshold="1" class="gallery-top__text text-pop">
+							<h2 class="text-pop__title">Destination Gallery</h2>
+							<p class="text-pop__paragraph">Our photo gallery on trip</p>
+						</div>
+						<div data-da=".gallery__container, 768" class="gallery-top__navig navig">
+							<span class="navig__prev gallery-prev icon-chevron"></span>
+							<span class="navig__next gallery-next icon-chevron "></span>
+						</div>
+					</div>
+					<div class="gallery__collection">
+						<div class="swiper-wrapper collection row">
+							<div class="swiper-slide collection__item">
+								<picture><source srcset="img/gallery-2.webp" type="image/webp"><img src="img/gallery-2.png" alt=""></picture>
+							</div>
+							<div class="swiper-slide collection__item">
+								<picture><source srcset="img/gallery-3.webp" type="image/webp"><img src="img/gallery-3.png" alt=""></picture>
+							</div>
+							<div class="swiper-slide collection__item">
+								<picture><source srcset="img/gallery-4.webp" type="image/webp"><img src="img/gallery-4.png" alt=""></picture>
+							</div>
+							<div class="swiper-slide collection__item">
+								<picture><source srcset="img/gallery-3.webp" type="image/webp"><img src="img/gallery-3.png" alt=""></picture>
+							</div>
+							<div class="swiper-slide collection__item">
+								<picture><source srcset="img/gallery-2.webp" type="image/webp"><img src="img/gallery-2.png" alt=""></picture>
+							</div>
+							<div class="swiper-slide collection__item">
+								<picture><source srcset="img/gallery-3.webp" type="image/webp"><img src="img/gallery-3.png" alt=""></picture>
+							</div>
+							<div class="swiper-slide collection__item">
+								<picture><source srcset="img/gallery-4.webp" type="image/webp"><img src="img/gallery-4.png" alt=""></picture>
+							</div>
+							<div class="swiper-slide collection__item">
+								<picture><source srcset="img/gallery-3.webp" type="image/webp"><img src="img/gallery-3.png" alt=""></picture>
+							</div>
+						</div>
+						<div class="swiper-wrapper collection column">
+							<div class="swiper-slide">
+								<div class=" collection__item">
+									<picture><source srcset="img/gallery-2.webp" type="image/webp"><img src="img/gallery-2.png" alt=""></picture>
+								</div>
+								<div class=" collection__item">
+									<picture><source srcset="img/gallery-3.webp" type="image/webp"><img src="img/gallery-3.png" alt=""></picture>
+								</div>
+								<div class=" collection__item">
+									<picture><source srcset="img/gallery-4.webp" type="image/webp"><img src="img/gallery-4.png" alt=""></picture>
+								</div>
+								<div class="collection__item">
+									<picture><source srcset="img/gallery-3.webp" type="image/webp"><img src="img/gallery-3.png" alt=""></picture>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class=" collection__item">
+									<picture><source srcset="img/gallery-2.webp" type="image/webp"><img src="img/gallery-2.png" alt=""></picture>
+								</div>
+								<div class="collection__item">
+									<picture><source srcset="img/gallery-3.webp" type="image/webp"><img src="img/gallery-3.png" alt=""></picture>
+								</div>
+								<div class=" collection__item">
+									<picture><source srcset="img/gallery-4.webp" type="image/webp"><img src="img/gallery-4.png" alt=""></picture>
+								</div>
+								<div class=" collection__item">
+									<picture><source srcset="img/gallery-3.webp" type="image/webp"><img src="img/gallery-3.png" alt=""></picture>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="experiences">
+				<div class="experiences__container exper-container">
+					<div data-watch data-watch-threshold="1" class="exper-container__top text-pop">
+						<h2 class="text-pop__title">Traveler’s Experiences</h2>
+						<p class="text-pop__paragraph">Here some awesome feedback from our travelers</p>
+					</div>
+					<div class="exper-container__swiper revies">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide revies__item item-revie">
+								<div class="item-revie__img">
+									<picture><source srcset="img/avatar-1.webp" type="image/webp"><img src="img/avatar-1.png" alt=""></picture>
+								</div>
+								<div class="item-revie__text">
+									But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+								</div>
+								<div class="content__stars">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+								</div>
+								<div class="item-revie__name">John Doe</div>
+								<div class="item-revie__place">Accountant</div>
+							</div>
+							<div class="swiper-slide revies__item item-revie">
+								<div class="item-revie__img">
+									<picture><source srcset="img/avatar-2.webp" type="image/webp"><img src="img/avatar-2.png" alt=""></picture>
+								</div>
+								<div class="item-revie__text">
+									But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+								</div>
+								<div class="content__stars">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+								</div>
+								<div class="item-revie__name">John Smith</div>
+								<div class="item-revie__place">Journalist, HWO New</div>
+							</div>
+							<div class="swiper-slide revies__item item-revie">
+								<div class="item-revie__img">
+									<picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png" alt=""></picture>
+								</div>
+								<div class="item-revie__text">
+									But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+								</div>
+								<div class="content__stars">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+								</div>
+								<div class="item-revie__name">John Doe</div>
+								<div class="item-revie__place">Managing Director, JTH</div>
+							</div>
+							<div class="swiper-slide revies__item item-revie">
+								<div class="item-revie__img">
+									<picture><source srcset="img/avatar-1.webp" type="image/webp"><img src="img/avatar-1.png" alt=""></picture>
+								</div>
+								<div class="item-revie__text">
+									But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master- builder of human happiness.
+								</div>
+								<div class="content__stars">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+									<img src="img/star.svg" alt="">
+								</div>
+								<div class="item-revie__name">John Doe</div>
+								<div class="item-revie__place">Accountant</div>
+							</div>
+						</div>
+					</div>
+					<div class="top-pop__navig navig">
+						<span class="navig__prev ex-prev icon-chevron"></span>
+						<span class="navig__next ex-next icon-chevron "></span>
+					</div>
+				</div>
+			</section>
+			<section class="subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__content content-subscribe">
+						<div class="content-subscribe__title text-pop__title">Our Newsletter</div>
+						<div class="content-subscribe__form form">
+							<label class="form__email">
+								<span>Email</span>
+								<input type="email" placeholder="Enter your email">
+							</label>
+							<button class="form__btn" type="submit">Subscribe</button>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container footer-content">
+				<div class="footer-content__logo">
+					<picture><source srcset="img/Logo.webp" type="image/webp"><img src="img/Logo.png" alt=""></picture>
+					<span>Copyright © Travellian 2020 All rights reserved</span>
+				</div>
+				<div class="footer-content__menu">
+					<h6 class="footer__title">Menu</h6>
+					<ul class="menu-footer">
+						<li><a href="" class="menu-footer__link"></a>Menu</a></li>
+						<li><a href="" class="menu-footer__link"></a>Home</a></li>
+						<li><a href="" class="menu-footer__link"></a>Explore</a></li>
+						<li><a href="" class="menu-footer__link"></a>Travel</a></li>
+						<li><a href="" class="menu-footer__link"></a>Blog</a></li>
+						<li><a href="" class="menu-footer__link"></a>Pricing</a></li>
+					</ul>
+				</div>
+				<div class="footer-content__info">
+					<h6 class="footer__title">Information</h6>
+					<ul class="info-footer">
+						<li><a href="" class="info-footer__link">Destinations</a></li>
+						<li><a href="" class="info-footer__link">Supports</a></li>
+						<li><a href="" class="info-footer__link">Terms & Conditions</a></li>
+						<li><a href="" class="info-footer__link">Privacy</a></li>
+					</ul>
+				</div>
+				<div class="footer-content__contact">
+					<h6 class="footer__title">Contact Info</h6>
+					<ul class="contact-footer">
+						<li><a href="" class="contact-footer__link">+123 456 789</a></li>
+						<li><a href="" class="contact-footer__link">info@travellian.com</a></li>
+						<li><a href="" class="contact-footer__link">1245, New Yourk, USA</a></li>
+					</ul>
+				</div>
+				<div class="footer-content__follow">
+					<h6 class="footer__title">Follow us on</h6>
+					<ul class="follow-footer">
+						<li><a href="" class="follow-footer__link icon-facebook"></a></li>
+						<li><a href="" class="follow-footer__link icon-pinterest"></a></li>
+						<li><a href="" class="follow-footer__link icon-instagram"></a></li>
+						<li><a href="" class="follow-footer__link icon-twitter"></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240111152624"></script>
+</body>
+
+</html>
